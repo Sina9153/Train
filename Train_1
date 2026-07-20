@@ -1,1 +1,26 @@
-
+def info (name,old,nationality,a):
+    if "name" in a:
+        print("your name is",name)
+        if "old" in a:
+           print("you are",old,"years old")
+        elif "nationality" in a:
+           print("you are",nationality)
+    elif "old" in a:
+        print("you are",old,"years old")
+        if "name" in a:
+           print("your name is",name)
+        elif "nationality" in a:
+           print("you are",nationality)
+    elif "nationality" in a:
+        print("you are",nationality)
+        if "name" in a:
+           print("your name is",name)
+        elif "old" in a:
+           print("you are",old,"years old")
+    else:
+        print("OK")
+name=input("enter your name:")
+old=input("how old are you:")
+nationality=input("enter your nationality:")
+a=input("what do you want to now about yourself?")
+info(name,old,nationality,a)
