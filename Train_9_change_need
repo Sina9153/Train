@@ -11,4 +11,8 @@ while True:
 
     if a == secret:
         print("درست")
+<<<<<<< HEAD
         break
+=======
+        break
+>>>>>>> 7570f3f2826d626dbd0b1f7f6e72d064e7bc575f
