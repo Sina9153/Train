@@ -1,0 +1,2 @@
+print("kiri")
+print("a")
