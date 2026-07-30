@@ -1,3 +1,3 @@
 import pyfiglet 
 
-print(pyfiglet.figlet_format("hello"))
+print(pyfiglet.figlet_format("Hi"))
