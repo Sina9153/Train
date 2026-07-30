@@ -1,2 +1,0 @@
-print("kiri")
-print("a")
