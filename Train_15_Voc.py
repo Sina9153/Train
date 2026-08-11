@@ -68,4 +68,5 @@ for w, s in words.items():
     if col == 4:      
         col = 0
         row += 1
+
 root.mainloop()
