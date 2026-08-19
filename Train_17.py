@@ -1,9 +1,4 @@
-import pyexcel
-import os
-
-root_path=os.getcwd()
-dest_path=root_path+r"\Test\a.xlsx"
-
-if os.path.exists(dest_path):
-    sheet=pyexcel.get_sheet(file_name=dest_path)
-    
+with open("Test1.txt","w") as file:
+    file.write("Ali=20")
+with open("Test1.txt","r") as file:
+    print(file.read())
